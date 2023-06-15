@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+
+.body{
+ background: linear-gradient(to right, #19547b, #4CA1AF);
+ color: white;   
+ 
+
+	}
+
+.encabezado{
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#FACC2E;
+	color:#19547b;
+	
+}
+
+
+.filas{
+	
+text-align: left;
+	
+}
+
+.Ptabla{
+	position:absolute;
+	align-self: center;
+	float: none;
+	position:absolute;
+	top:140px;
+	margin-left:400px;
+	
+}
+
+.sinBorde {border: 0; border-bottom:1px solid #000}
+
+.Bsuperior{
+	position: absolute;
+	width:100%;
+	background-color: #FACC2E;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	top: 0px;
+	left:0px;
+	height: 120px;
+	float: none;
+	color:#19547b; 
+	font-family:'Montserrat', sans-serif;
+	justify-content: center;
+	
+}
+
+
+
+#b1{
+	position:absolute;
+	margin-left: 1500px;
+	top:225px;
+	
+}
+#opcion1{
+	color: #01DF3A; 
+	text-decoration: none; 
+
+
+}
+#opcion2{
+	color:#B40404; 
+	text-decoration:none; 
+
+
+}
+.tabla{
+	color: white;
+	font-size: 14;
+	font-family: 'Montserrat', sans-serif;
+	table-layout: fixed;
+	border-collapse: collapse;
+	
+}
+
+th{
+	padding: 20px 15px;
+	font-weight: 700;
+	
+}
+
+td{
+	padding: 20px 15px;
+	font-weight: 700;
+	background-color: #3f4c6b;
+}
+
+
+tbody tr:hover {
+	color: #FACC2E;
+	
+}
+

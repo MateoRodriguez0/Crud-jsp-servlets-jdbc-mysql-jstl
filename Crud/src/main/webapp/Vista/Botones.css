@@ -1,0 +1,137 @@
+@charset "UTF-8";
+:root{
+
+  --white: white;
+  --yellow: #FACC2E;
+  
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.btn-ghost{
+  display: inline-block;
+  border: 2px solid var(--white);
+  padding: 20px 80px;
+  color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--white);
+  transition: color 0.5s, background 0.5s;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  min-width: 140px;
+  text-align: center;
+}
+
+.btn-ghost.round{
+  border-radius: 30px;
+}
+
+.btn-ghost.secundary{
+  background-color: transparent;
+  color: var(--white);
+}
+
+.btn-ghost:hover{
+  color: var(--white);
+  background-color: transparent;
+}
+
+.btn-ghost.secundary:hover{
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.btn-ghost:active{
+  box-shadow: inset 0 0 20px var(--white);
+}
+
+.btn-ghost.secundary:active{
+  box-shadow: inset 0 0 20px var(--black);
+}
+
+
+
+
+
+.btn-ghost.purple{
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--white);
+}
+
+.btn-ghost.secundary.purple{
+  background-color: transparent;
+  color: var(--yellow);
+}
+
+.btn-ghost.purple:hover{
+background-color: transparent;
+  color: var(--yellow);
+}
+
+.btn-ghost.secundary.purple:hover{
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+.btn-ghost.purple:active{
+  box-shadow: inset 0 0 20px var(--purple);
+}
+
+.btn-ghost.secundary.purple:active{
+  box-shadow: inset 0 0 20px var(--white);
+}
+
+
+/** YELLOW */
+.btn-ghost.yellow{
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--white);
+}
+
+.btn-ghost.secundary.yellow{
+  background-color: transparent;
+  color: var(--yellow);
+}
+
+
+.btn-ghost.secundary.yellow:hover{
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+
+.btn-ghost.secundary.yellow:active{
+  box-shadow: inset 0 0 20px var(--white);
+}
+
+
+/** GREEN */
+.btn-ghost.green{
+   background-color: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--white);
+}
+
+.btn-ghost.secundary.green{
+   background-color: transparent;
+  color: var(--yellow);
+}
+
+
+.btn-ghost.secundary.green:hover{
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+
+.btn-ghost.secundary.green:active{
+  box-shadow: inset 0 0 20px var(--white);
+}

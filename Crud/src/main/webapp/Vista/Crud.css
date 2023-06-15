@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+
+.body{
+ background: linear-gradient(to right, #19547b, #4CA1AF);
+ color: white;   
+ 
+
+	}
+
+
+
+.form1{
+	
+	position: absolute;
+	top: 200px;
+	margin-left: 700px;
+}
+
+
+
+
+.Bsuperior{
+	position: absolute;
+	width:100%;
+	background-color: #FACC2E;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	top: 0px;
+	left:0px;
+	height: 120px;
+	float: none;
+	color:#19547b; 
+	font-family:'Montserrat', sans-serif;
+	justify-content: center;
+	
+}
+
+
+
+
+
+.fila{
+	padding: 20px 15px;
+	font-weight: 700;
+	
+}
+
+
+
+
